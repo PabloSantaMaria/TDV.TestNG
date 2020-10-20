@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-10-15T14:55:10Z" name="Default Suite" finished-at="2020-10-15T14:55:10Z" duration-ms="28">
+    <groups>
+      <group name="groupTest">
+        <method signature="AlmacenTest.testEsPosibleCocinar()[pri:0, instance:restaurantTest.AlmacenTest@42f93a98]" name="testEsPosibleCocinar" class="restaurantTest.AlmacenTest"/>
+      </group> <!-- groupTest -->
+    </groups>
+    <test started-at="2020-10-15T14:55:10Z" name="TD&amp;V.TestNG" finished-at="2020-10-15T14:55:10Z" duration-ms="28">
+      <class name="restaurantTest.AlmacenTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:restaurantTest.AlmacenTest@42f93a98]" started-at="2020-10-15T14:55:10Z" name="setUp" finished-at="2020-10-15T14:55:10Z" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testEsPosibleCocinar()[pri:0, instance:restaurantTest.AlmacenTest@42f93a98]" started-at="2020-10-15T14:55:10Z" name="testEsPosibleCocinar" finished-at="2020-10-15T14:55:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEsPosibleCocinar -->
+        <test-method signature="testIngresaIngredientes(restaurant.Consumible)[pri:0, instance:restaurantTest.AlmacenTest@42f93a98]" started-at="2020-10-15T14:55:10Z" name="testIngresaIngredientes" data-provider="foo" finished-at="2020-10-15T14:55:10Z" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restaurant.Ingrediente@530612ba]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIngresaIngredientes -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:restaurantTest.AlmacenTest@42f93a98]" started-at="2020-10-15T14:55:10Z" name="setUp" finished-at="2020-10-15T14:55:10Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:restaurantTest.AlmacenTest@42f93a98]" started-at="2020-10-15T14:55:10Z" name="setUp" finished-at="2020-10-15T14:55:10Z" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testIngresaIngredientes(restaurant.Consumible)[pri:0, instance:restaurantTest.AlmacenTest@42f93a98]" started-at="2020-10-15T14:55:10Z" name="testIngresaIngredientes" data-provider="foo" finished-at="2020-10-15T14:55:10Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[restaurant.Ingrediente@74294adb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIngresaIngredientes -->
+      </class> <!-- restaurantTest.AlmacenTest -->
+    </test> <!-- TD&V.TestNG -->
+  </suite> <!-- Default Suite -->
+</testng-results>

@@ -1,0 +1,34 @@
+{
+  "ingredientes": [
+    {
+      "name": "sal",
+      "unit": "g",
+      "qty": 0,
+      "price": 1
+    },
+    {
+      "name": "huevos",
+      "unit": "u",
+      "qty": 0,
+      "price": 1
+    },
+    {
+      "name": "fideos",
+      "unit": "g",
+      "qty": 0,
+      "price": 1
+    },
+    {
+      "name": "carne picada",
+      "unit": "g",
+      "qty": 0,
+      "price": 1
+    },
+    {
+      "name": "papa",
+      "unit": "g",
+      "qty": 0,
+      "price": 1
+    }
+  ]
+}
