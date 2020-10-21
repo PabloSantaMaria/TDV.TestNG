@@ -1,53 +1,52 @@
 package restaurant;
 
-import java.util.List;
-
 public class ProductoElaborado extends Producto {
 
-	String nombreComercial;
-	int tiempoDeCoccion;
-	Receta receta;
+    String nombreComercial;
+    int tiempoDeCoccion;
+    Receta receta;
 
-	public ProductoElaborado(String nombre,float precioUnitarioVenta) {
-		super(nombre, 0, precioUnitarioVenta);
-		// TODO Auto-generated constructor stub
-	}
-	
-	public Receta getReceta() {
-		return receta;
-	}
+    public ProductoElaborado(String nombre, float precioUnitarioVenta) {
+        super(nombre, 0, precioUnitarioVenta);
+        // TODO Auto-generated constructor stub
+    }
 
-	public void setReceta(Receta receta) {
-		this.receta = receta;
-	}
+    public Receta getReceta() {
+        return receta;
+    }
 
-	public String getNombreComercial() {
-		return nombreComercial;
-	}
+    public void setReceta(Receta receta) {
+        this.receta = receta;
+    }
 
-	public void setNombreComercial(String nombreComercial) {
-		this.nombreComercial = nombreComercial;
-	}
+    public String getNombreComercial() {
+        return nombreComercial;
+    }
 
-	public int getTiempoDeCoccion() {
-		return tiempoDeCoccion;
-	}
+    public void setNombreComercial(String nombreComercial) {
+        this.nombreComercial = nombreComercial;
+    }
 
-	public void setTiempoDeCoccion(int tiempoDeCoccion) {
-		this.tiempoDeCoccion = tiempoDeCoccion;
-	}
+    public int getTiempoDeCoccion() {
+        return tiempoDeCoccion;
+    }
 
-	@Override
-	public void despachar(int cantidad) {
-		Receta r = this.getReceta();
-		for(int i= 0;i<r.getIngredientes().size();i++) {
-			ItemReceta ingredienteActual = r.getIngredientes().get(i);
-			Almacen.ExtraerConsumibles(ingredienteActual.getIngrediente(), ingredienteActual.getCantidad()*cantidad);
-		}
+    public void setTiempoDeCoccion(int tiempoDeCoccion) {
+        this.tiempoDeCoccion = tiempoDeCoccion;
+    }
 
-	}
-	public String toString() {
-		return nombre;
-	}
+    @Override
+    public void despachar(int cantidad) {
+        Receta r = this.getReceta();
+        for (int i = 0; i < r.getIngredientes().size(); i++) {
+            ItemReceta ingredienteActual = r.getIngredientes().get(i);
+            Almacen.ExtraerConsumibles(ingredienteActual.getIngrediente(), ingredienteActual.getCantidad() * cantidad);
+        }
+
+    }
+
+    public String toString() {
+        return nombre;
+    }
 
 }
